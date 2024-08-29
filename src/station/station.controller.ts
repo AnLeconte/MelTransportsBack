@@ -34,7 +34,7 @@ export class StationController {
         }
     }
     @Get()
-    async getStation(@Res() response) {
+    async getStations(@Res() response) {
         try {
             const stationData = await this.stationService.getAllStations();
             return response.status(HttpStatus.OK).json({
@@ -43,17 +43,17 @@ export class StationController {
             return response.status(err.status).json(err.response);
         }
     }
-    // @Get('/:id')
-    // async getStation(@Res() response, @Param('id') stationId: string) {
-    //     try {
-    //         const existingStation = await
-    //             this.stationService.getStation(stationId);
-    //         return response.status(HttpStatus.OK).json({
-    //             message: 'Station trouvée',existingStation,});
-    //     } catch (err) {
-    //         return response.status(err.status).json(err.response);
-    //     }
-    // }
+    @Get('/:id')
+    async getStation(@Res() response, @Param('id') stationId: string) {
+        try {
+            const existingStation = await
+                this.stationService.getStation(stationId);
+            return response.status(HttpStatus.OK).json({
+                message: 'Station trouvée',existingStation,});
+        } catch (err) {
+            return response.status(err.status).json(err.response);
+        }
+    }
     @Delete('/:id')
     async deleteStation(@Res() response, @Param('id') stationId: string)
     {
