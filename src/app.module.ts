@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import {MongooseModule} from "@nestjs/mongoose";
-import {StationSchema} from "./schema/station.schema";
+import { MongooseModule } from '@nestjs/mongoose';
+import { StationSchema } from './schema/station.schema';
 import { StationService } from './station/station.service';
 import { StationController } from './station/station.controller';
 
