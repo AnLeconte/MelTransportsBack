@@ -22,6 +22,13 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+## Artisans du projet 
+    
+    - Anna RAACH
+    - Juliette ANCLA
+    - Antoine LECONTE
+    - Christophe ALFIER
+    
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
