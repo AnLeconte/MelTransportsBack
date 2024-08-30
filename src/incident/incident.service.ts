@@ -5,11 +5,12 @@ import {ILigne} from "../interface/ligne.interface";
 import {IIncident} from "../interface/incident.interface";
 import {CreateLigneDto} from "../dto/create-ligne.dto";
 import {UpdateIncidentDto} from "../dto/update-incident.dto";
+import {CreateIncidentDto} from "../dto/create-incident.dto";
 
 @Injectable()
 export class IncidentService {
     constructor(@InjectModel('Incident') private incidentModel:Model<IIncident>) {}
-    async createIncidentDto(createIncidentDto: CreateLigneDto): Promise<IIncident> {
+    async createIncidentDto(createIncidentDto: CreateIncidentDto): Promise<IIncident> {
         const newIncident = await new this.incidentModel(createIncidentDto);
         return newIncident.save();
     }

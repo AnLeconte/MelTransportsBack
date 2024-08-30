@@ -1,14 +1,13 @@
 import {Body, Controller, Delete, Get, HttpStatus, Param, Post, Put, Res} from '@nestjs/common';
-import {CreateLigneDto} from "../dto/create-ligne.dto";
-import {UpdateLigneDto} from "../dto/update-ligne.dto";
 import {IncidentService} from "./incident.service";
 import {UpdateIncidentDto} from "../dto/update-incident.dto";
+import {CreateIncidentDto} from "../dto/create-incident.dto";
 
 @Controller('incident')
 export class IncidentController {
     constructor(private readonly incidentService: IncidentService) {}
     @Post()
-    async createIncident(@Res() response, @Body() createIncidentDto: CreateLigneDto) {
+    async createIncident(@Res() response, @Body() createIncidentDto: CreateIncidentDto) {
         try {
             const newIncident = await this.incidentService.createIncidentDto(createIncidentDto);
             return response.status(HttpStatus.CREATED).json({
