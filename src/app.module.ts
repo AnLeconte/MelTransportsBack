@@ -17,7 +17,7 @@ import { IncidentController } from './incident/incident.controller';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017',{dbName: 'transport'}),
+    MongooseModule.forRoot(process.env.DATABASE_URI,{ dbName: 'transport' }),
     MongooseModule.forFeature([{ name: 'Station', schema: StationSchema }]),
     MongooseModule.forFeature([{ name: 'Transport', schema: TransportSchema }]),
     MongooseModule.forFeature([{ name: 'Ligne', schema: LigneSchema }]),

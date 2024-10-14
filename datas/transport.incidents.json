@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "66d173781b5d970a8241b23d"
+  },
+  "intitule": "Incident sur la voie",
+  "details": "Passage d'une horde de sangliers sur la voie, une équipe de chasseurs expérimentés est en route pour régler le problème",
+  "debut": {
+    "$date": "2024-08-30T10:25:43.511Z"
+  },
+  "fin": {
+    "$date": "2024-08-30T14:45:10.511Z"
+  },
+  "stations": [
+    {
+      "$oid": "66cf36445ba04bb1a1ca6173"
+    },
+    {
+      "$oid": "66cf36505ba04bb1a1ca6179"
+    }
+  ],
+  "lignes": [
+    {
+      "$oid": "66d03c1805318282a0fc7d5f"
+    }
+  ],
+  "__v": 0
+}]
