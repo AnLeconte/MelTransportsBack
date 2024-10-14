@@ -34,6 +34,15 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Avec docker 
+
+```bash
+$ docker compose up -d
+```
+La base de données mongo est au port 27020 et le back end tourne sur le port 5001 (pas besoin de le modifier, le front est déjà paramétré pour accéder via ce port)
+
+La base de données aura des documents pré intégrés dans les collections
+
 ## Project setup
 
 ```bash
