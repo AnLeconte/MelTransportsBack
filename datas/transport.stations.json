@@ -1,0 +1,176 @@
+[{
+  "_id": {
+    "$oid": "66cf36445ba04bb1a1ca6173"
+  },
+  "nom": "Bus - Station 1",
+  "velo": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf364a5ba04bb1a1ca6175"
+  },
+  "nom": "Bus - Station 2",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf364d5ba04bb1a1ca6177"
+  },
+  "nom": "Bus - Station 3",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf36505ba04bb1a1ca6179"
+  },
+  "nom": "Bus - Station 4",
+  "velo": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf36585ba04bb1a1ca617b"
+  },
+  "nom": "Bus - Station 5",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf365c5ba04bb1a1ca617d"
+  },
+  "nom": "Bus - Station 6",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf36615ba04bb1a1ca617f"
+  },
+  "nom": "Bus - Station 7",
+  "velo": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf36665ba04bb1a1ca6181"
+  },
+  "nom": "Bus - Station 8",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf36695ba04bb1a1ca6183"
+  },
+  "nom": "Bus - Station 9",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cf36705ba04bb1a1ca6185"
+  },
+  "nom": "Bus - Station 10",
+  "velo": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d0a45b57e7a4aad74f14fe"
+  },
+  "nom": "Tram - Station 1",
+  "velo": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d0a46157e7a4aad74f1500"
+  },
+  "nom": "Tram - Station 2",
+  "velo": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d0a46657e7a4aad74f1502"
+  },
+  "nom": "Tram - Station 3",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d0a46a57e7a4aad74f1504"
+  },
+  "nom": "Tram - Station 4",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d0a46d57e7a4aad74f1506"
+  },
+  "nom": "Tram - Station 5",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d0a47257e7a4aad74f1508"
+  },
+  "nom": "Tram - Station 6",
+  "velo": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d173f71b5d970a8241b240"
+  },
+  "nom": "Metro - Station 1",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d173fc1b5d970a8241b242"
+  },
+  "nom": "Metro - Station 2",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d173ff1b5d970a8241b244"
+  },
+  "nom": "Metro - Station 3",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d174011b5d970a8241b246"
+  },
+  "nom": "Metro - Station 4",
+  "velo": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d174061b5d970a8241b248"
+  },
+  "nom": "Metro - Station 5",
+  "velo": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d1740e1b5d970a8241b24a"
+  },
+  "nom": "Metro - Station 6",
+  "velo": true,
+  "__v": 0
+}]

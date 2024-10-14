@@ -1,0 +1,183 @@
+[{
+  "_id": {
+    "$oid": "66d03c1805318282a0fc7d5f"
+  },
+  "nom": "Bus - 1",
+  "type": [
+    {
+      "$oid": "66d027724076bcff958c62f5"
+    }
+  ],
+  "premier_depart": {
+    "$date": "2012-04-23T18:25:43.511Z"
+  },
+  "dernier_depart": {
+    "$date": "2012-04-23T18:27:43.511Z"
+  },
+  "frequence": 2,
+  "stations": [
+    {
+      "$oid": "66cf36445ba04bb1a1ca6173"
+    },
+    {
+      "$oid": "66cf364a5ba04bb1a1ca6175"
+    },
+    {
+      "$oid": "66cf364d5ba04bb1a1ca6177"
+    },
+    {
+      "$oid": "66cf36505ba04bb1a1ca6179"
+    },
+    {
+      "$oid": "66cf36585ba04bb1a1ca617b"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d04c352b268b38bfb07117"
+  },
+  "nom": "Bus - 2",
+  "type": [
+    {
+      "$oid": "66d027724076bcff958c62f5"
+    }
+  ],
+  "premier_depart": {
+    "$date": "2012-04-23T18:25:43.511Z"
+  },
+  "dernier_depart": {
+    "$date": "2012-04-23T18:27:43.511Z"
+  },
+  "frequence": 2,
+  "stations": [
+    {
+      "$oid": "66cf365c5ba04bb1a1ca617d"
+    },
+    {
+      "$oid": "66cf36615ba04bb1a1ca617f"
+    },
+    {
+      "$oid": "66cf36665ba04bb1a1ca6181"
+    },
+    {
+      "$oid": "66cf36695ba04bb1a1ca6183"
+    },
+    {
+      "$oid": "66cf36705ba04bb1a1ca6185"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d0a4bb57e7a4aad74f150b"
+  },
+  "nom": "Tram",
+  "type": [
+    {
+      "$oid": "66d0278b4076bcff958c62f7"
+    }
+  ],
+  "premier_depart": {
+    "$date": "2024-04-23T18:25:43.511Z"
+  },
+  "dernier_depart": {
+    "$date": "2024-04-23T18:55:43.511Z"
+  },
+  "frequence": 2,
+  "stations": [
+    {
+      "$oid": "66d0a45b57e7a4aad74f14fe"
+    },
+    {
+      "$oid": "66d0a46157e7a4aad74f1500"
+    },
+    {
+      "$oid": "66d0a46657e7a4aad74f1502"
+    },
+    {
+      "$oid": "66d0a46a57e7a4aad74f1504"
+    },
+    {
+      "$oid": "66d0a46d57e7a4aad74f1506"
+    },
+    {
+      "$oid": "66d0a47257e7a4aad74f1508"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d1748b1b5d970a8241b250"
+  },
+  "nom": "Metro",
+  "type": [
+    {
+      "$oid": "66d027dc4076bcff958c62ff"
+    }
+  ],
+  "premier_depart": {
+    "$date": "2024-09-01T14:25:43.511Z"
+  },
+  "dernier_depart": {
+    "$date": "2024-09-01T18:55:43.511Z"
+  },
+  "frequence": 2,
+  "stations": [
+    {
+      "$oid": "66d173f71b5d970a8241b240"
+    },
+    {
+      "$oid": "66d173fc1b5d970a8241b242"
+    },
+    {
+      "$oid": "66d173ff1b5d970a8241b244"
+    },
+    {
+      "$oid": "66d174011b5d970a8241b246"
+    },
+    {
+      "$oid": "66d174061b5d970a8241b248"
+    },
+    {
+      "$oid": "66d1740e1b5d970a8241b24a"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d18470999a2c43c40a7f29"
+  },
+  "nom": "Bus - 3",
+  "type": [
+    {
+      "$oid": "66d027724076bcff958c62f5"
+    }
+  ],
+  "premier_depart": {
+    "$date": "2012-04-23T18:25:43.511Z"
+  },
+  "dernier_depart": {
+    "$date": "2012-04-23T18:27:43.511Z"
+  },
+  "frequence": 2,
+  "stations": [
+    {
+      "$oid": "66cf364a5ba04bb1a1ca6175"
+    },
+    {
+      "$oid": "66cf365c5ba04bb1a1ca617d"
+    },
+    {
+      "$oid": "66cf36615ba04bb1a1ca617f"
+    },
+    {
+      "$oid": "66cf36695ba04bb1a1ca6183"
+    }
+  ],
+  "__v": 0
+}]
