@@ -12,6 +12,4 @@ RUN npm run build
 
 EXPOSE 5000
 
-COPY entrypoint.sh /entrypoint.sh
-
 CMD [ "npm", "run", "start:prod" ]
